@@ -1,0 +1,7 @@
+html
+  head
+    title= title
+  body
+    ul
+      each val in images
+        li: img(src = 'https://s3.amazonaws.com/europe.photos/' + val)
